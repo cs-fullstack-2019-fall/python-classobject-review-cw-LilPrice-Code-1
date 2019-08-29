@@ -27,6 +27,7 @@ def pro1():
             return mystr
 
     my1 = Movie("A Silent Voice", "9,7/10", "2018")
+    # !! : create *two* instances 
     print(my1)
 #
 # Problem 2:
@@ -55,6 +56,7 @@ def pro2():
                      f"self.name = {self.name}")
             return mystr
     p1 = Product(15, 3, 'apple')
+    # !! : create *two* instances 
     print(p1)
 
 
